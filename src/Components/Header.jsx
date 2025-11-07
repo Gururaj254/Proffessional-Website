@@ -9,7 +9,8 @@ export default function Header() {
                    height= "500px" width= "400px" ></img>
                 </p>
               
-               <img src = "./images/Gururaj.jpg" height= "500px" width= "400px" />
+                <img src="./images/Gururaj.jpg" alt="Gururaj" width="400" height="500" />
+               
            </header>
         </>
     )
