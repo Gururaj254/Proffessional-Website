@@ -1,0 +1,90 @@
+
+
+.body {
+    background-color: aqua;
+}
+.name {
+    /* background-color : aqua; */
+    animation-name: changeText;
+    animation-duration: 20s;
+    
+}
+.image {
+    
+   width: 120px;
+  position: absolute;
+  top: 50%;
+  left: -150px; /* start off screen */
+  transform: translateY(-50%);
+  animation: fly 20s ease-out forwards;
+    
+}
+
+@keyframes fly {
+  0% {
+    left: -150px;
+    top: 50%;
+    transform: translateY(-50%) rotate(0deg);
+  }
+  25% {
+    left: 25vw;
+    top: 20%;
+    transform: translateY(-50%) rotate(10deg);
+  }
+  50% {
+    left: 50vw;
+    top: 70%;
+    transform: translateY(-50%) rotate(-10deg);
+  }
+  75% {
+    left: 80vw;
+    top: 40%;
+    transform: translateY(-50%) rotate(5deg);
+  }
+  90% {
+    left: 55%;
+    top: 50%;
+  }
+  100% {
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+}
+
+
+.chain{
+    animation-name: changeback;
+    animation-duration: 30s;
+    background-color: orange;
+}
+
+@keyframes changeback{
+  0%   { background-color: aqua; font-size: 20px; }
+  50%  { background-color: yellow ; font-size: 40px; }
+  100% { color:white; font-size: 20px; }
+} 
+ 
+@keyframes changeText{
+  0%   { background-color: greenyellow; font-size: 20px; }
+  50%  { background-color: red; font-size: 40px; }
+  100% { background-color: blueviolet; font-size: 20px; }
+}
+
+
+h4, h3 {
+    background-color:red;
+}
+
+li, dl {
+    background-color: aqua;
+    text-align: center;
+}
+
+h2 {
+    background-color:red;
+    text-align: center;
+    text-wrap: initial;
+}
+
+
