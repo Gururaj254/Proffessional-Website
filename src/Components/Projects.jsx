@@ -1,21 +1,52 @@
 export default function AboutMe() {
-    return (
-        <>
-           <section>
-                <h2 class = "name">Projects</h2>
-                <dl>1.Project Title : <mark>Task Matrix </mark></dl>
-                <pre>Technologies used : <mark>ReactJs</mark></pre>
-                <h3>
-                <a href="https://gururaj254.github.io/TaskMatrix/" target ="_blank"> Project  Is live here</a>
-                </h3>
+  return (
+    <>
+      <section className="projects-section fade-in">
+        <h2 className="name">Projects</h2>
 
-                <li>Task Matrix
-                Created a React-based Task Matrix platform to facilitate precise tracking of tasks, focusing on usability and performance.
-                Gained practical exposure to React fundamentals, including component lifecycle and state management. 
-                Successfully delivered a project that streamlines task organization and demonstrates a strong understanding of web development best practices.</li>
+        <div className="project">
+          <h3>
+            1. Project Title: <mark>Task Matrix</mark>
+          </h3>
 
-                <img src="./images/image3.jpg" height= "300px" width= "900px"/>
-           </section>
-        </>
-    )
+          <p>
+            <strong>Technologies used:</strong> <mark>ReactJS</mark>
+          </p>
+
+          <h3>
+            <a
+              href="https://gururaj254.github.io/TaskMatrix/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              🚀 Project is Live Here
+            </a>
+          </h3>
+
+          <ul>
+            <li>
+              <strong>Task Matrix</strong> is a React-based task management
+              platform designed for efficient and precise tracking of daily
+              tasks.
+            </li>
+            <li>
+              Gained practical exposure to React fundamentals, including
+              component lifecycle and state management.
+            </li>
+            <li>
+              The project showcases clean UI, strong modularity, and improved
+              performance practices.
+            </li>
+          </ul>
+
+          <div className="project-image fadeSlideIn">
+            <img
+              src="./images/image3.jpg"
+              alt="Task Matrix Project"
+            />
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }

@@ -1,13 +1,16 @@
 export default function Footer() {
-    return (
-        <>
-           <footer>
+  return (
+    <>
+      <footer>
+        <div className="footer-images">
+          <img src="images/image5.jpg" alt="Footer 1" />
+          <img src="images/image6.jpg" alt="Footer 2" />
+        </div>
 
-                <img src="images/image5.jpg" height= "400px" width= "700px" />
-                <img src="images/image6.jpg" height="400px" width="800px"/>
-
-                
-           </footer>
-        </>
-    )
+        <p className="footer-text">
+          © {new Date().getFullYear()} Gururaj Dharmashetti | Java Full Stack Developer
+        </p>
+      </footer>
+    </>
+  );
 }
