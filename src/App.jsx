@@ -16,14 +16,14 @@ export default function App() {
           <Header />
           <AboutMe />
           <Contact />
-          <img src="/images/image1.jpg" height="500px" width="500px"/>
-            <img src="/images/image2.jpg" height="500px" width="500px"/>
-            <img src="/images/image4.jpg" height="500px" width="500px"/>
+          <img src="./images/image1.jpg" height="500px" width="500px"/>
+            <img src="./images/image2.jpg" height="500px" width="500px"/>
+            <img src="./images/image4.jpg" height="500px" width="500px"/>
           <Education />
           <Experience />
           <Skills />
-          <img src="/images/image8.jpg" height="500px" width="500px"/>
-          <img src="/images/image7.jpg" height="500px" width="500px"/>
+          <img src="./images/image8.jpg" height="500px" width="500px"/>
+          <img src="./images/image7.jpg" height="500px" width="500px"/>
           <Projects />
           <Summary />
           <Languages />

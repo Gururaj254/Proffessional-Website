@@ -14,7 +14,7 @@ export default function AboutMe() {
                 Gained practical exposure to React fundamentals, including component lifecycle and state management. 
                 Successfully delivered a project that streamlines task organization and demonstrates a strong understanding of web development best practices.</li>
 
-                <img src="/Images/image3.jpg" height= "300px" width= "900px"/>
+                <img src="./images/image3.jpg" height= "300px" width= "900px"/>
            </section>
         </>
     )
