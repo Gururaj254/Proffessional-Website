@@ -4,6 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Gururaj254.github.io/Proffessional-Website",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -29,4 +30,3 @@
     "vite": "^7.1.7"
   }
 }
-
