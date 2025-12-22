@@ -1,12 +1,15 @@
-import React from 'react'
+import React from "react";
 
 export default function Languages() {
   return (
-    <div>
+    <section className="languages-box fade-in">
       <h2>Languages Known</h2>
-      <li>English : fluent</li>
-      <li>Kannada : mother tongue</li>
-      <li>Hindi : intermediate</li>
-    </div>
-  )
+
+      <ul>
+        <li><strong>English:</strong> Fluent</li>
+        <li><strong>Kannada:</strong> Mother Tongue</li>
+        <li><strong>Hindi:</strong> Intermediate</li>
+      </ul>
+    </section>
+  );
 }

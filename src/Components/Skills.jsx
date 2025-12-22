@@ -1,44 +1,42 @@
 export default function AboutMe() {
   return (
-    <>
-      <section className="skills-section fade-in">
-        <h2 className="name">Technical Skills</h2>
-        <div className="skills-category">
-          <h4>Web Technologies</h4>
-          <ul>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>ReactJS</li>
-          </ul>
+    <section className="skills-section fade-in">
+      <h2>Technical Skills</h2>
+
+      <div className="skills-grid">
+        <div className="skills-card">
+          <h4>Programming</h4>
+          <p>Java, SQL, JavaScript, Python (Basic)</p>
         </div>
 
-        <div className="skills-category">
-          <h4>Backend & Database</h4>
-          <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>DSA</li>
-            <li>SQL</li>
-          </ul>
+        <div className="skills-card">
+          <h4>Backend</h4>
+          <p>
+            Spring, Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud,
+            REST APIs
+          </p>
         </div>
-      </section>
 
-      <section className="skills-section fade-in-delay">
-        <h2>Soft Skills</h2>
-        <ul>
-          <li>Efficient Communicator</li>
-          <li>Team Collaboration</li>
-        </ul>
-      </section>
+        <div className="skills-card">
+          <h4>Databases</h4>
+          <p>MySQL, Oracle</p>
+        </div>
 
-      <section className="skills-section fade-in-delay">
-        <h2>Development Tools</h2>
-        <ul>
-          <li>DBMS Tools: MySQL, Oracle</li>
-          <li>Version Control: Git, GitHub</li>
-        </ul>
-      </section>
-    </>
+        <div className="skills-card">
+          <h4>Web</h4>
+          <p>Thymeleaf, HTML, CSS, React.js</p>
+        </div>
+
+        <div className="skills-card">
+          <h4>Core Concepts</h4>
+          <p>OOPS, Data Structures, DBMS, Microservices</p>
+        </div>
+
+        <div className="skills-card">
+          <h4>Tools</h4>
+          <p>Git, GitHub, Maven, Postman, IntelliJ, Eclipse, VS Code</p>
+        </div>
+      </div>
+    </section>
   );
 }

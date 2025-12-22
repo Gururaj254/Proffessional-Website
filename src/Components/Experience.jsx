@@ -1,7 +1,7 @@
 export default function Experience() {
   return (
     <section className="experience-section">
-      <h2 className="name">Experience</h2>
+      <h2 >Experience</h2>
 
       <ul className="experience-list">
         <li className="experience-item">

@@ -1,26 +1,83 @@
-
 export default function Contact() {
-    return (
-        <>
-            <h2>Contact: </h2>
-            <ul>
-            <li>Name: Gururaj Dharamshetti</li>
+  return (
+    <section className="contact-box">
+      <h2>Contact</h2>
 
-            <li >Objective: Full Stack Developer</li>
+      <address>
+        <ul>
+          <li>
+            <strong>Name:</strong> Gururaj Dharmashetti
+          </li>
 
-            <li>Email: gururajdharmashetti0@gmail.com</li>
+          <li>
+            <strong>Role:</strong> Java Spring Boot / Full Stack Developer
+          </li>
 
-            <li>Phone: 7349050340
-                       8105067254 </li>
+          <li>
+            <strong>Email:</strong>{" "}
+            <a href="mailto:gururajdharmashetti0@gmail.com">
+              gururajdharmashetti0@gmail.com
+            </a>
+          </li>
 
-            <li>Location: Bangalore, India</li>
+          <li>
+            <strong>Phone:</strong> 7349050340 / 8105067254
+          </li>
 
-            <li>LinkedIn: <a href = "https://www.linkedin.com/in/gururaj-dharmashetti-944685296/" target="_blank">View Here</a></li>
+          <li>
+            <strong>Location:</strong> Bangalore, India
+          </li>
 
-            <li>GitHub: <a href = "https://github.com/Gururaj254" target = "_blank">View Here</a></li>
-            <li>Proffessional Resume: <a href= "https://kod-production-profile-service.s3.ap-south-1.amazonaws.com/36a29154-fc4f-4067-b603-5000fe19708e/resume.pdf?t=2025-10-09T06:28:33.121Z" target = "_blank">View Here</a></li>
-            </ul> 
-            
-        </>
-    )
+          <li>
+            <strong>LinkedIn:</strong>{" "}
+            <a
+              href="https://www.linkedin.com/in/gururaj-dharmashetti-944685296/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Profile
+            </a>
+          </li>
+
+          <li>
+            <strong>Personal RestApi Projects:</strong>{" "}
+            <a
+              href="https://github.com/Gururaj254"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Projects
+            </a>
+          </li>
+
+          <li>
+            <strong>GitHub Profole:</strong>{" "}
+            <a
+              href="https://github.com/Gururaj254/About-Me-"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Profile
+            </a>
+          </li>
+
+          <li>
+            <strong>Resume:</strong>{" "}
+            <a
+              href="https://kod-production-profile-service.s3.ap-south-1.amazonaws.com/36a29154-fc4f-4067-b603-5000fe19708e/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              View Resume
+            </a>
+          </li>
+
+          <li>
+            <strong>Career Objective:</strong> Actively seeking full-time software
+            development opportunities.
+          </li>
+        </ul>
+      </address>
+    </section>
+  );
 }

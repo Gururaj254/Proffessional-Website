@@ -21,7 +21,6 @@ export default function App() {
       <div className="image-gallery">
         <img src="./images/image2.jpg" alt="image2" className="responsive-img" />
           <img src="./images/image1.jpg" alt="image1" className="responsive-img" />
-        <img src="./images/image4.jpg" alt="image4" className="responsive-img" />
       </div>
 
       <Education />
@@ -29,7 +28,6 @@ export default function App() {
       <Skills />
 
       <div className="image-gallery">
-        <img src="./images/image8.jpg" alt="image8" className="responsive-img" />
         <img src="./images/image7.jpg" alt="image7" className="responsive-img" />
       </div>
 

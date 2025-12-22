@@ -1,7 +1,7 @@
 export default function Education() {
   return (
     <section className="education-section">
-      <h2 className="name">Education</h2>
+      <h2>Education</h2>
 
       <ul className="education-list">
         <li className="education-item">
