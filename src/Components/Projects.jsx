@@ -52,17 +52,17 @@ export default function Projects() {
       {/* Bank Account API */}
       <div className="project">
         <h3>
-          3. Project Title: <mark>Bank Account API</mark>
+          3. Project Title: <mark>Bank Account Application</mark>
         </h3>
         <p>
-          <strong>Technologies used:</strong> <mark>Java, Spring Boot, MVC, Thymeleaf, MySQL</mark>
+          <strong>Technologies used:</strong> <mark>Java, Spring Boot, MVC, ReactJS, MySQL</mark>
         </p>
         <ul>
           <li>Built RESTful banking APIs supporting account creation, deposits, withdrawals, and balance validation using Spring Boot.</li>
-          <li>Implemented business validations, custom exception handling, and integrated Thymeleaf for smooth backend-to-UI interaction.</li>
+          <li>Implemented business validations, custom exception handling, and integrated ReactJS for smooth backend-to-UI interaction.</li>
         </ul>
         <div className="project-image">
-          <img src="./images/imagepjt1.jpg" alt="Bank Account API" />
+          <img src="./images/bankpjt.jpg" alt="Bank Account API" />
         </div>
       </div>
     </section>
