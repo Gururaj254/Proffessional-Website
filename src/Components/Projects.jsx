@@ -35,17 +35,17 @@ export default function Projects() {
       {/* Ecommerce Food API */}
       <div className="project">
         <h3>
-          2. Project Title: <mark>Ecommerce Food API</mark>
+          2. Project Title: <mark> E-Commerce Food Ordering Microservices</mark>
         </h3>
         <p>
-          <strong>Technologies used:</strong> <mark>Java, Spring Boot, Spring Data JPA, MySQL</mark>
+          <strong>Technologies used:</strong> <mark>Java, Spring Boot, Spring Cloud, Eureka, API Gateway, Feign, MySQL</mark>
         </p>
         <ul>
           <li>Designed and developed RESTful backend APIs using Spring Boot, following MVC and layered architecture with full CRUD operations.</li>
           <li>Integrated MySQL using Spring Data JPA & Hibernate for scalable backend processing and efficient data persistence.</li>
         </ul>
         <div className="project-image">
-          <img src="./images/imagepjt2.jpg" alt="Ecommerce Food API" />
+          <img src="./images/imagepjt.jpg" alt="Ecommerce Food API" />
         </div>
       </div>
 

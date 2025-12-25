@@ -7,7 +7,7 @@ export default function Education() {
         <li className="education-item">
           <strong>Degree:</strong> BE in CSE<br />
           <strong>University:</strong> VTU Belgaum, 2025, Karnataka<br />
-          <strong>CGPA:</strong> 8.4
+          <strong>CGPA:</strong> 8.56
         </li>
 
         <li className="education-item">
