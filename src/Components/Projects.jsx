@@ -35,7 +35,7 @@ export default function Projects() {
       {/* Ecommerce Food API */}
       <div className="project">
         <h3>
-          2. Project Title: <mark> E-Commerce Food Ordering Microservices</mark>
+          2. Project Title: <mark> E-Commerce Food Ordering Application</mark>
         </h3>
         <p>
           <strong>Technologies used:</strong> <mark>Java, Spring Boot, Spring Cloud, Eureka, API Gateway, Feign, MySQL</mark>
@@ -49,7 +49,10 @@ export default function Projects() {
 </li>
         </ul>
         <div className="project-image">
-          <img src="./images/imagepjt.jpg" alt="Ecommerce Food API" />
+          <img src="./images/imageEureka.jpg" alt="Ecommerce Food APP" />
+        </div>
+        <div className="project-image">
+          <img src="./images/imagepjt.jpg" alt="Ecommerce Food API Test" />
         </div>
       </div>
 

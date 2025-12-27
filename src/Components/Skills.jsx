@@ -12,7 +12,7 @@ export default function AboutMe() {
         <div className="skills-card">
           <h4>Backend</h4>
           <p>
-            Spring, Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud,
+            Spring, Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud,Spring Microservices
             REST APIs
           </p>
         </div>
@@ -34,7 +34,7 @@ export default function AboutMe() {
 
         <div className="skills-card">
           <h4>Tools</h4>
-          <p>Git, GitHub, Maven, Postman, IntelliJ, Eclipse, VS Code</p>
+          <p>Git, GitHub, Maven, Postman, IntelliJ IDEA, Eclipse, VS Code</p>
         </div>
       </div>
     </section>
