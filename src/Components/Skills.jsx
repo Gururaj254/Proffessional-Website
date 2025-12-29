@@ -12,7 +12,7 @@ export default function AboutMe() {
         <div className="skills-card">
           <h4>Backend</h4>
           <p>
-            Spring, Spring Boot, Spring MVC, Spring Data JPA, Spring Cloud,Spring Microservices
+            Spring, Spring Boot, Spring MVC, Spring Data JPA, Spring Security(JWT),Spring Cloud Config ,Spring Microservices
             REST APIs
           </p>
         </div>
@@ -24,7 +24,7 @@ export default function AboutMe() {
 
         <div className="skills-card">
           <h4>Web</h4>
-          <p>Thymeleaf, HTML, CSS, React.js</p>
+          <p>Thymeleaf</p>
         </div>
 
         <div className="skills-card">
