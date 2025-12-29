@@ -40,7 +40,7 @@ export default function Projects() {
           <li>Implemented business validations, Global exception handling, and integrated ReactJS for smooth backend-to-UI interaction.</li>
         </ul>
         <div className="project-image">
-          <img src="./images/bankapitest.jpg" alt="Bank Account API" />
+          <img src="./images/bankapitest.jpg" alt="Bank Account Rest API" />
         </div>
       </div>
 
