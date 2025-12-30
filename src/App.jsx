@@ -28,7 +28,7 @@ export default function App() {
       <Skills />
 
       <div className="image-gallery">
-        <img src="./images/image7.jpg" alt="image7" className="responsive-img" />
+        <img src="./images/spring1.jpg" alt="image7" className="responsive-img" />
       </div>
 
       <Projects />
