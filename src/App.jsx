@@ -9,7 +9,7 @@ import Intrest from "./Components/Intrest.jsx";
 import Contact from "./Components/Contact.jsx";
 import Summary from "./Components/Summary.jsx";
 import Languages from "./Components/Languages.jsx";
-import "./App.css"; // <-- link your CSS here
+import "./App.css"; 
 
 export default function App() {
   return (
@@ -18,18 +18,18 @@ export default function App() {
       <AboutMe />
       <Contact />
 
-      <div className="image-gallery">
-        <img src="./images/image2.jpg" alt="image2" className="responsive-img" />
-          <img src="./images/image1.jpg" alt="image1" className="responsive-img" />
-      </div>
+        <div className="image-gallery">
+          <img src="./images/image2.jpg" alt="image2" className="responsive-img" />
+            <img src="./images/image1.jpg" alt="image1" className="responsive-img" />
+        </div>
 
       <Education />
       <Experience />
       <Skills />
 
-      <div className="image-gallery">
-        <img src="./images/spring1.jpg" alt="image7" className="responsive-img" />
-      </div>
+        <div className="image-gallery">
+          <img src="./images/spring1.jpg" alt="image7" className="responsive-img" />
+        </div>
 
       <Projects />
       <Summary />

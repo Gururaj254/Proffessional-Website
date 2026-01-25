@@ -2,7 +2,7 @@ export default function Header() {
   return (
     <>
       <header className="header">
-        <h2 className="fade-in">Gururaj Dharmashetti</h2>
+        <h2 className="name">Gururaj Dharmashetti</h2>
         <h2 className="name fade-in-delay">Software Developer</h2>
 
         {/* Center image */}
