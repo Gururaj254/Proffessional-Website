@@ -54,7 +54,7 @@ export default function Projects() {
         </p>
         <h3>
           <a
-            href="https://gururaj254.github.io/TaskMatrix/"
+            href="https://gururaj254.github.io/Task_Tracker_App/"
             target="_blank"
             rel="noopener noreferrer"
           >
