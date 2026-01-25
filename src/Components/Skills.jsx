@@ -24,7 +24,7 @@ export default function AboutMe() {
 
         <div className="skills-card">
           <h4>Web</h4>
-          <p>Thymeleaf</p>
+          <p>HTML, CSS, JavaScript, ReactJS, Thymeleaf</p>
         </div>
 
         <div className="skills-card">

@@ -47,7 +47,7 @@ export default function Projects() {
       {/* Task Matrix */}
       <div className="project">
         <h3>
-          3. Project Title: <mark>Task Matrix</mark>
+          3. Project Title: <mark>Task Tracker App</mark>
         </h3>
         <p>
           <strong>Technologies used:</strong> <mark>ReactJS</mark>
@@ -63,13 +63,13 @@ export default function Projects() {
         </h3>
         <ul>
           <li>
-            <strong>Task Matrix</strong> is a React-based task management platform for efficient daily task tracking.
+            <strong>Task Tracker App</strong> is a React-based task management platform for efficient daily task tracking.
           </li>
           <li>Practical exposure to React fundamentals: component lifecycle and state management.</li>
           <li>Showcases clean UI, strong modularity, and optimized performance.</li>
         </ul>
         <div className="project-image">
-          <img src="./images/image3.jpg" alt="Task Matrix Project" />
+          <img src="./images/image3.jpg" alt="Task Tracker App" />
         </div>
       </div>
     </section>

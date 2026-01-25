@@ -3,7 +3,7 @@ export default function Header() {
     <>
       <header className="header">
         <h2 className="fade-in">Gururaj Dharmashetti</h2>
-        <h2 className="name fade-in-delay">Java Full Stack Developer</h2>
+        <h2 className="name fade-in-delay">Software Developer</h2>
 
         {/* Center image */}
         <div className="center-image fade-in">

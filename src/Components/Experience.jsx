@@ -4,6 +4,13 @@ export default function Experience() {
       <h2 >Experience</h2>
 
       <ul className="experience-list">
+         <li className="experience-item">
+          Softawre Development Intern at Kodnest technologies, Bangalore  jun 2025 - Current.
+        </li>
+        <li className="experience-item">
+          As a Fresher i built 2 spring boot rest apis, as well as React Projects.
+        </li>
+
         <li className="experience-item">
           Motivated team player with a commitment to quickly acquiring new competencies and adapting to evolving work situations.
         </li>

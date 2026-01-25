@@ -10,7 +10,7 @@ export default function Contact() {
           </li>
 
           <li>
-            <strong>Role:</strong> Java Spring Boot / Full Stack Developer
+            <strong>Role:</strong> Software Developer / Full Stack Developer
           </li>
 
           <li>
@@ -21,7 +21,7 @@ export default function Contact() {
           </li>
 
           <li>
-            <strong>Phone:</strong> 7349050340 / 8105067254
+            <strong>Phone:</strong> 8105067254
           </li>
 
           <li>
@@ -40,7 +40,7 @@ export default function Contact() {
           </li>
 
           <li>
-            <strong>Personal RestApi Projects:</strong>{" "}
+            <strong>Personal Projects :</strong>{" "}
             <a
               href="https://github.com/Gururaj254"
               target="_blank"
