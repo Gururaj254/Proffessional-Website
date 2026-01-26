@@ -17,6 +17,7 @@ export default function Skills() {
           </p>
         </div>
 
+
         <div className="skills-card">
           <h4>Databases</h4>
           <p>MySQL, Oracle</p>
