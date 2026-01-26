@@ -12,12 +12,11 @@ export default function Projects() {
           <strong>Technologies used:</strong> <mark>Java, Spring Boot, Spring Cloud, Eureka, API Gateway, Feign, MySQL</mark>
         </p>
         <ul>
-          <li>Designed and developed RESTful backend APIs using Spring Boot, following MVC and Microservices-based food ordering system with Restaurant, Menu, and Order services. Full service discovery, gateway routing, and end-to-end order management.
-.</li>
+          <li>Designed and developed RESTful backend APIs using Spring Boot, following MVC and Microservices-based food ordering system with Restaurant, Menu, 
+            and Order services. Full service discovery, gateway routing, and end-to-end order management.</li>
           <li>Integrated MySQL using Spring Data JPA & Hibernate for scalable backend processing and efficient data persistence.</li>
           <li>Add/View Restaurants
-          <li>API routing via Spring Cloud Gateway and Inter-service communication with Feign clients</li>    
-</li>
+          <li>API routing via Spring Cloud Gateway and Inter-service communication with Feign clients</li>    </li>
         </ul>
         <div className="project-image">
           <img src="./images/imageEureka.jpg" alt="Ecommerce Food APP" />

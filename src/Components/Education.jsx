@@ -6,7 +6,7 @@ export default function Education() {
       <ul className="education-list">
         <li className="education-item">
           <strong>Degree:</strong> BE in CSE<br />
-          <strong>University:</strong> VTU Belgaum, 2025, Karnataka<br />
+          <strong>University:</strong> VTU Belguam, 2025, Karnataka<br />
           <strong>CGPA:</strong> 8.56
         </li>
 
