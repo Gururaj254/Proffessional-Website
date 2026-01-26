@@ -1,4 +1,4 @@
-export default function AboutMe() {
+export default function Skills() {
   return (
     <section className="skills-section fade-in">
       <h2>Technical Skills</h2>
